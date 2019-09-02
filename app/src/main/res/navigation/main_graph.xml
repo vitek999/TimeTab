@@ -6,17 +6,17 @@
     <fragment
         android:id="@+id/todayFragment"
         android:name="ru.intelrug.timetab.ui.TodayFragment"
-        android:label="TodayFragment" />
+        android:label="@string/today_fragment_title" />
     <fragment
         android:id="@+id/firstWeekFragment"
         android:name="ru.intelrug.timetab.ui.FirstWeekFragment"
-        android:label="FirstWeekFragment" />
+        android:label="@string/first_week_fragment_title" />
     <fragment
         android:id="@+id/secondWeekFragment"
         android:name="ru.intelrug.timetab.ui.SecondWeekFragment"
-        android:label="SecondWeekFragment" />
+        android:label="@string/second_week_fragment_title" />
     <fragment
         android:id="@+id/settingsFragment"
         android:name="ru.intelrug.timetab.ui.SettingsFragment"
-        android:label="SettingsFragment" />
+        android:label="@string/setting_fragment_title" />
 </navigation>

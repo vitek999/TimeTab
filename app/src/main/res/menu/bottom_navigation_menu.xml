@@ -5,7 +5,7 @@
         android:title="@string/today_fragment_title"
         android:icon="@drawable/ic_today_24dp"/>
     <item
-        android:id="@+id/fistWeekFragment"
+        android:id="@+id/firstWeekFragment"
         android:title="@string/first_week_fragment_title"
         android:icon="@drawable/ic_today_24dp"/>
     <item
@@ -13,7 +13,7 @@
         android:title="@string/second_week_fragment_title"
         android:icon="@drawable/ic_today_24dp"/>
     <item
-        android:id="@+id/settings"
+        android:id="@+id/settingsFragment"
         android:title="Настройки"
         android:icon="@drawable/ic_settings_24dp"/>
 </menu>

@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">TimeTab</string>
+    <string name="today_fragment_title">Сегодня</string>
+    <string name="first_week_fragment_title">Певрая неделя</string>
+    <string name="second_week_fragment_title">Вторая неделя</string>
 </resources>

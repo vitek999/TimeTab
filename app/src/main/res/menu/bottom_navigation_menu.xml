@@ -3,17 +3,17 @@
     <item
         android:id="@+id/todayFragment"
         android:title="@string/today_fragment_title"
-        android:icon="@drawable/ic_today_24dp"/>
+        android:icon="@drawable/ic_calendar"/>
     <item
         android:id="@+id/firstWeekFragment"
         android:title="@string/first_week_fragment_title"
-        android:icon="@drawable/ic_today_24dp"/>
+        android:icon="@drawable/ic_calendar_1"/>
     <item
         android:id="@+id/secondWeekFragment"
         android:title="@string/second_week_fragment_title"
-        android:icon="@drawable/ic_today_24dp"/>
+        android:icon="@drawable/ic_calendar_2"/>
     <item
         android:id="@+id/settingsFragment"
         android:title="@string/setting_fragment_title"
-        android:icon="@drawable/ic_settings_24dp"/>
+        android:icon="@drawable/ic_options"/>
 </menu>

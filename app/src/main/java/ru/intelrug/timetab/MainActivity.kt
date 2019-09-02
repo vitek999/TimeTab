@@ -3,6 +3,8 @@ package ru.intelrug.timetab
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.findNavController
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
@@ -18,5 +20,16 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment)
         findViewById<BottomNavigationView>(R.id.bottom_navigation)
             .setupWithNavController(navController)
+
+        // Setting ActionBar
+        val appBarConfiguration = AppBarConfiguration
+            .Builder(
+                R.id.todayFragment,
+                R.id.firstWeekFragment,
+                R.id.secondWeekFragment,
+                R.id.settingsFragment)
+            .build()
+        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration)
+
     }
 }

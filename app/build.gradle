@@ -35,4 +35,8 @@ dependencies {
 
     // Timber logger
     implementation 'com.jakewharton.timber:timber:4.7.1'
+
+    // Android navigation
+    implementation 'android.arch.navigation:navigation-fragment-ktx:1.0.0'
+    implementation 'android.arch.navigation:navigation-ui-ktx:1.0.0'
 }
